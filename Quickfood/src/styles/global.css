@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root{
+    --color-primary: #00A000;
+    --color-neutral-black: rgba(0, 0, 1, 1);
+    --color-neutral-silver: #999999;
+    --color-neutral-white: #FFFFFF;
+    --color-neutral-bgoverlay: #FAFAFA;
+        
+    /* font styles */
+    --font: "Gilroy";
+
+    --font-headline1-size: 16px;
+    --font-headline2-size: 18px;
+    --font-headline3-size: 40px;
+    --font-h1-size: 60px;
+    --font-h3-size: 28px;
+    --font-h2-size: 48px;
+    --font-h1-size: 60px;
+}
