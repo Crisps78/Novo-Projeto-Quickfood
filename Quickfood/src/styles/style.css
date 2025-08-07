@@ -5,24 +5,35 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 49px 100px;
  
+}
+
+.Logo {
+    width: 141px;
+    height: 34px;
+    margin: 49px 257.77px 49px 100px;
+    
 }
 
 /*  Fim - Header */
 
 /* Menu de navegação */
+
+nav {
+    
+}
 nav ul{
     display: flex;
     gap: 40px;
+    margin: 56px 0px 56px 0px;
 }
 
 nav a {
     font-size: var(--font-headline1-size);
     color: var(--color-neutral-black);
     font-weight: bold;
-    padding: 10px;
     border-radius: 5px;
+    
 }
 .active{
     color: var(--color-primary);
@@ -30,7 +41,7 @@ nav a {
 
 
 nav a:hover {
-    background-color: rgba(163, 163, 170, 0.041);
+    background-color: rgba(0, 160, 0, 0.1);
    
 }
 
@@ -44,19 +55,22 @@ nav a:hover {
 /* Botões lupa e carrinho */
 
 .btn-header{
+    width: 224.46px;
+    height: 52px;
     display: flex;
     justify-content: center;
     align-items:center ;
+    margin:40px 100px 40px 257.77px ;
+   
+    
 }
 
 .btn-icon {
-    display: flex;
-    justify-content: center;
-    align-items:center ;
-    width: 24px;
-    height: 24px;
-    padding: 46px 24px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
     background: none;
+    gap: 16px;
     cursor: pointer;
 }
 
@@ -74,12 +88,10 @@ main{
 
 /* Botão login */
 .login-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 205px;
     height: 52px;
-    padding: 40px 100px 40px ;
+    padding: 16px 32px ;
+    gap: 24px;
     font-size: var(--font-headline1-size);
     font-weight: bold;
     background: none;
@@ -98,7 +110,8 @@ main{
 
 .login-btn a:hover {
     transform: translatex(2px);
-    background-color: rgba(0, 0, 1, 0.1);
+    background-color: rgba(0, 160, 0, 0.1);
+    
 
 }
 
@@ -107,22 +120,24 @@ main{
 /* Apresentação da comida */
 
 .presentation-container {
+    border: 1px solid black;
     display: flex;
     justify-content: center;
+    padding: 51px 0px;
+    margin: 99px 39px 102px 98px;
     width: 1304px;
     height: 494px;
+    gap: 124px;
     
 }
 
 .presentation {
-    
-    width: 529px;
-    height: 392px;
-    padding: 50px 124px 32px 32px ;
+    border: 1px solid black;
+   width: 529px;
 }
 
 .presentation h1 {
-    padding: 32px 26px 84px 10px ;
+
     font-size: var(--font-h1-size);
 }
 
@@ -131,15 +146,19 @@ main{
     height: 116px;
     font-size: var(--font-headline2-size);
     color: rgba(131, 127, 127, 0.486);
-    padding: 32px 26px 84px 10px ;
+    margin: 32px 26px 84px 0px;
+    
     
 }
 
 .btn {
+
   display: flex;
   align-items: center;
   text-align: center;
-padding: 32px 26px 84px 10px;
+  gap: 24px;
+  
+    
     
 }
 
@@ -152,6 +171,7 @@ padding: 32px 26px 84px 10px;
     color: var( --color-neutral-white);
     font-size: var(--font-headline1-size);
     font-weight: bold;
+    
     
 }
 
@@ -179,8 +199,7 @@ span {
  display: flex;
  justify-content: center;
  align-items: center;
- padding: 99px 36px 102px 124px;
-   
+ 
 }
 
 .img-salad {
