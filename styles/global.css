@@ -5,3 +5,46 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+:root {
+    --color-primary: #00A000;
+    --color-primary_hover: rgba(103, 169, 103, 0.079);
+  --color-neutral-black: #000001;
+  --color-neutral-grey: #999999;
+  --color-neutral-L_grey: #89939e;
+  --color-neutral-silver: #f5f7fa;
+  --color-neutral-white: #fff;
+  --color-BG-Overlay: #FAFAFA;
+
+
+  --font: "Inter";
+
+  
+  --font-headline-2-size: 18px;
+  --font-headline-2-weight: bold;
+  --font-headline-2-weight-regular: 400;
+  --font-headline-2-weight-medium: 500;
+  
+  --font-headline-3-size: 16px;
+  --font-headline-3-weight: bold;
+  
+  --font-headline-4-size: 20px;
+  --font-headline-4-weight: bold;
+  
+  --font-headline-5-size: 20px;
+  --font-headline-5-weight-extrabold: bolder;
+  
+  --font-headline-6-size: 28px;
+  --font-headline-6-weight: bold;
+  
+  --font-headline-7-size: 48px;
+  --font-headline-7-weight: bold;
+  
+  --font-headline-1-size: 60px;
+  --font-headline-1-weight: bold;
+
+
+
+
+
+}

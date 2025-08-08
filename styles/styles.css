@@ -1,35 +1,85 @@
+/* =============== Header ============== */
+
 header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: aliceblue;
+  width: 100%;
+  padding: 49px 100px;
+  background-color: #fff;
 }
 
-header .logo-Quickfood {
-    width: 141px;
-    height: 34px;
-    margin: 49px 257.77px 49px 100px;
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 32px;
 }
 
-nav ul {
-    display: flex;
-    gap: 40px;
-    margin: 56px 257.77px 56px 0px;
-    padding: 5px;
+/* Logo */
+.logo-Quickfood {
+  width: auto;
+  height: 34px;
+  border-bottom: 3px solid var(--color-primary); 
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    gap: 24px;
+/* Navigation */
+.header-navigation ul {
+  display: flex;
+  gap: 40px;
+
 }
 
-.icons-items{
-    width: 40px;
-    height: 40px;
+.header-navigation a {
+  color: var(--color-neutral-black);
+  font-size: var(--font-headline-3-size);
+  padding: 8px;
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
+  font-weight: normal;
 }
 
+.header-navigation a.active {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.header-navigation a:hover {
+  color: var(--color-primary);
+  background-color: var(--color-primary_hover);
+}
+/* Fim - Navigation */
+
+/* Icons + Login */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.icons-items {
+  width: 40px;
+  height: 40px;
+}
+/* Buttom - login  */
 .btn-login {
-    width: 105px;
-    height: 52px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  font-size: var(--font-headline-3-size);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
+/*  Fim - Buttom - login  */
+
+.btn-login:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+/* =============== Fim - Header ============== */
+
+/* =============== Delicius-Food ============== */
+/* ========= Hero Section ========= */
+
+
