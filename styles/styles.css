@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+header .logo-Quickfood {
+    width: 141px;
+    height: 34px;
+    margin: 49px 257.77px 49px 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    margin: 56px 257.77px 56px 0px;
+    padding: 5px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icons-items{
+    width: 40px;
+    height: 40px;
+}
+
+.btn-login {
+    width: 105px;
+    height: 52px;
+}
