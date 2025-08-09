@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/src/assets/fontes/) format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
+
 :root {
     --color-primary: #00A000;
     --color-primary_hover: rgba(103, 169, 103, 0.079);
