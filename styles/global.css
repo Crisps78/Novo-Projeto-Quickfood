@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url(/src/assets/fontes/) format('ttf');         
+    src: url('/src/assets/fontes/') format('ttf');         
 }
 
 body {
@@ -16,8 +16,8 @@ body {
 }
 
 :root {
-    --color-primary: #00A000;
-    --color-primary_hover: rgba(103, 169, 103, 0.079);
+  --color-primary: #00A000;
+  --color-primary_hover: rgba(103, 169, 103, 0.146);
   --color-neutral-black: #000001;
   --color-neutral-grey: #999999;
   --color-neutral-L_grey: #89939e;
@@ -25,35 +25,61 @@ body {
   --color-neutral-white: #fff;
   --color-BG-Overlay: #FAFAFA;
 
+  --font-family-base: 'Inter', sans-serif;
 
-  --font: "Inter";
-
-  
-  --font-headline-2-size: 18px;
-  --font-headline-2-weight: bold;
-  --font-headline-2-weight-regular: 400;
-  --font-headline-2-weight-medium: 500;
-  
-  --font-headline-3-size: 16px;
-  --font-headline-3-weight: bold;
-  
-  --font-headline-4-size: 20px;
-  --font-headline-4-weight: bold;
-  
-  --font-headline-5-size: 20px;
-  --font-headline-5-weight-extrabold: bolder;
-  
-  --font-headline-6-size: 28px;
-  --font-headline-6-weight: bold;
-  
-  --font-headline-7-size: 48px;
-  --font-headline-7-weight: bold;
-  
   --font-headline-1-size: 60px;
-  --font-headline-1-weight: bold;
+   --font-weight-1-extralight: 200;
+  --font-weight-1-light: 300;
+  --font-weight-1-normal: 400;
+  --font-weight-1-medium: 500;
+  --font-weight-1-bold: 700;
+  --font-weight-1-extrabold: 800;
 
+  --font-headline-2-size: 18px;
+  --font-weight-2-extralight: 200;
+  --font-weight-2-light: 300;
+  --font-weight-2-normal: 400;
+  --font-weight-2-medium: 500;
+  --font-weight-2-bold: 700;
+  --font-weight-2-extrabold: 800;
 
+  --font-headline-3-size: 16px;
+   --font-weight-3-extralight: 200;
+  --font-weight-3-light: 300;
+  --font-weight-3-normal: 400;
+  --font-weight-3-medium: 500;
+  --font-weight-3-bold: 700;
+  --font-weight-3-extrabold: 800;
 
+  --font-headline-4-size: 20px;
+  --font-weight-4-extralight: 200;
+  --font-weight-4-light: 300;
+  --font-weight-4-normal: 400;
+  --font-weight-4-medium: 500;
+  --font-weight-4-bold: 700;
+  --font-weight-4-extrabold: 800;
 
+  --font-headline-5-size: 20px;
+   --font-weight-5-extralight: 200;
+  --font-weight-5-light: 300;
+  --font-weight-5-normal: 400;
+  --font-weight-5-medium: 500;
+  --font-weight-5-bold: 700;
+  --font-weight-5-extrabold: 800;
 
+  --font-headline-6-size: 28px;
+  --font-weight-6-extralight: 200;
+  --font-weight-6-light: 300;
+  --font-weight-6-normal: 400;
+  --font-weight-6-medium: 500;
+  --font-weight-6-bold: 700;
+  --font-weight-6-extrabold: 800;
+
+  --font-headline-7-size: 48px;
+  --font-weight-7-extralight: 200;
+  --font-weight-7-light: 300;
+  --font-weight-7-normal: 400;
+  --font-weight-7-medium: 500;
+  --font-weight-7-bold: 700;
+  --font-weight-7-extrabold: 800;
 }
