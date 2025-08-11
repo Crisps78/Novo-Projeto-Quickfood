@@ -173,9 +173,10 @@ color: var(--color-primary);
 
 /* Conteúdo principal */
 .why-choose-content {
-  max-width: 800px;
   text-align: center;
   margin-bottom: 60px;
+  margin: auto;
+  
 }
 
 .why-choose-content h1 {
@@ -229,9 +230,40 @@ color: var(--color-primary);
 
 /* Números ou estatísticas */
 .numbers {
+  max-width: 1240px;
+  width: 100%;
+  min-height: 89px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin: 60px auto 100px;
   gap: 20px;
-  margin-top: 40px;
+ 
 }
+
+.numbers-content h3 {
+  font-size: var(--font-headline-7-size);
+  color: var(--color-neutral-black);
+  
+}
+
+
+.numbers-content p {
+  font-size: var(--font-headline-2-size);
+  color: var(--color-neutral-L_grey);
+  
+}
+ /* ===== Fim Why Choose Us Container ===== */
+ .hero-special {
+  /* display: flex; */
+  background-color: aqua;
+ }
+
+.content {
+  margin-top: 100px;
+  text-align: center;
+}
+
 
