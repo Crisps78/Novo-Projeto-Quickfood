@@ -32,6 +32,11 @@ header {
   padding: 5px 10px;
   font-size: var(--font-headline-3-size);
   font-weight: var(--font-weight-3-medium);
+  
+}
+
+.navigation {
+  color: var(--color-neutral-black);
 }
 
 .header-navigation a:hover {
@@ -121,7 +126,7 @@ color: var(--color-primary);
   height: 116px;
  margin: 32px 26 0px 0px;
  font-size: var(--font-headline-2-size);
- font-weight: var(---font-weight-2-light);
+ font-weight: var(--font-weight-2-light);
  line-height: 1.6;
  color: var(--color-neutral-L_grey);
 }
@@ -147,14 +152,28 @@ color: var(--color-primary);
   width: 189px;
   height: 52px;
   border-radius: 8px;
-  border: none;
   background-color: var(--color-neutral-white);
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
   font-size: var(--font-headline-3-size);
   font-weight: bold;
+  cursor: pointer;
 
 }
+
+.btn-primary:hover {
+  background-color: var(--color-neutral-white);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-neutral-white);
+}
+
+
+
 
 .hero-image img {
   width: 539px;
@@ -179,7 +198,7 @@ color: var(--color-primary);
   
 }
 
-.why-choose-content h1 {
+.why-choose-content h2 {
   font-size: var(--font-headline-7-size);
   font-weight: var(--font-weight-7-extrabold);
   color: var(--color-neutral-black);
@@ -230,7 +249,7 @@ color: var(--color-primary);
 
 /* Números ou estatísticas */
 .numbers {
-  max-width: 1240px;
+  max-width: 1440px;
   width: 100%;
   min-height: 89px;
   display: flex;
@@ -258,8 +277,28 @@ color: var(--color-primary);
  /* ===== Fim Why Choose Us Container ===== */
  .hero-special {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
- }
+  padding: 60px 20px;
+  background-color: var(--color-neutral-white);
+}
 
+.hero-special h2 {
+  font-size: var(--font-headline-7-size);
+  font-weight: var(--font-weight-7-extrabold);
+  margin-bottom: 40px;
+}
 
+.hero-special-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.special-container {
+  max-width: 300px;
+  background-color: var(--color-neutral-white);
+  padding: 20px;
+}
