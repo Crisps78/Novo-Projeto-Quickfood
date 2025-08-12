@@ -257,13 +257,9 @@ color: var(--color-primary);
 }
  /* ===== Fim Why Choose Us Container ===== */
  .hero-special {
-  /* display: flex; */
-  background-color: aqua;
- }
-
-.content {
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
   text-align: center;
-}
+ }
 
 
