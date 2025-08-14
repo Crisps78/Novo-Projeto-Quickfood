@@ -15,6 +15,21 @@ body {
     font-family: 'Gilroy', sans-serif; 
 }
 
+.btn-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 352px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    border: none;
+    margin: 16px 24px 24px 24px;
+    color: var(--color-neutral-white);
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-weight-2-bold);
+}
+
 :root {
   --color-primary: #00A000;
   --color-primary_hover: rgba(103, 169, 103, 0.146);

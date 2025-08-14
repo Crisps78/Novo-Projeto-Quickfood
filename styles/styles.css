@@ -275,6 +275,8 @@ color: var(--color-primary);
   
 }
  /* ===== Fim Why Choose Us Container ===== */
+
+ /* =====Special dishes for you Container===== */
  .hero-special {
   display: flex;
   flex-direction: column;
@@ -294,11 +296,68 @@ color: var(--color-primary);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 .special-container {
   max-width: 300px;
-  background-color: var(--color-neutral-white);
   padding: 20px;
 }
+
+.special-content{
+  background-color: var(--color-primary_hover);
+  border-radius: 10px;
+  
+ 
+}
+/* Button Group */
+.btn-buy-now {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-content {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-neutral-white);
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.btn-content:hover {
+  background-color: var(--color-neutral-white);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+/* ===== Fim Special dishes for you===== */
+
+/* =====What our clients Container===== */
+.hero-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.clients h1 {
+  font-size: var(--font-headline-7-size);
+  font-weight: var( --font-weight-7-bold);
+  color: var(--color-neutral-black);
+}
+
+.clients p {
+  font-size: var(--font-headline-2-size);
+  font-weight: var(--font-weight-2-light);
+  color: var(--color-neutral-L_grey);
+}
+
+.clients-container {
+  display: flex;
+ 
+}
+
+/* =====Fim What our clients Container===== */
