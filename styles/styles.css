@@ -402,14 +402,12 @@ margin: 40px 149.5px 24px;
   align-items: center;
   margin-top: 118px;
   gap: 82px;
-  border: 1px solid red;
 }
 
 .about-content {
   width: 558px;
   height: 297px;
   text-align: start;
-  border: 1px solid red;
 }
 
 .about-content h5 {
