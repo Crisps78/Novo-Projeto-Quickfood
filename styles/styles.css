@@ -341,9 +341,10 @@ color: var(--color-primary);
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 57px;
 }
 
-.clients h1 {
+.clients h3 {
   font-size: var(--font-headline-7-size);
   font-weight: var( --font-weight-7-bold);
   color: var(--color-neutral-black);
@@ -353,11 +354,74 @@ color: var(--color-primary);
   font-size: var(--font-headline-2-size);
   font-weight: var(--font-weight-2-light);
   color: var(--color-neutral-L_grey);
+  margin-top: 8px;
 }
 
 .clients-container {
   display: flex;
- 
+  flex-wrap: wrap;
+  gap: 21px;
+  margin: 60px 100px;
 }
 
+.clients-cards {
+  width: 399px;
+  height: 400px;
+}
+
+.clients-items img {
+width: 100px;
+height: 100px;
+margin: 40px 149.5px 24px;
+
+}
+
+.clients-items h4 {
+  font-size: var( --font-headline-6-size);
+  font-weight: var(--font-weight-6-bold);
+  color: var(--color-neutral-black);
+}
+
+.clients-items p {
+  width: 319px;
+  height: 110px;
+  margin: 16px 40px 75px;
+  font-size: var(--font-headline-2-size);
+  font-weight: var(--font-weight-2-light);
+  color: var(--color-neutral-L_grey);
+}
 /* =====Fim What our clients Container===== */
+
+/* =====About Us===== */
+.about-container {
+  width: 1440px;
+  height: 602.08px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 118px;
+  gap: 82px;
+  border: 1px solid red;
+}
+
+.about-content {
+  width: 558px;
+  height: 297px;
+  text-align: start;
+  border: 1px solid red;
+}
+
+.about-content h5 {
+  font-size: var(--font-headline-8-size);
+  font-weight: var(--font-weight-8-bold);
+  color: var(--color-neutral-black);
+}
+
+.about-content p {
+  font-size: var(--font-headline-2-size);
+  font-weight: var(--font-weight-2-bold);
+  color: var(--color-neutral-L_grey);
+  margin: 24px 0px 24px;
+}
+/* ===== Fim About Us===== */

@@ -74,13 +74,6 @@ body {
   --font-weight-4-bold: 700;
   --font-weight-4-extrabold: 800;
 
-  --font-headline-5-size: 20px;
-   --font-weight-5-extralight: 200;
-  --font-weight-5-light: 300;
-  --font-weight-5-normal: 400;
-  --font-weight-5-medium: 500;
-  --font-weight-5-bold: 700;
-  --font-weight-5-extrabold: 800;
 
   --font-headline-6-size: 28px;
   --font-weight-6-extralight: 200;
@@ -97,4 +90,7 @@ body {
   --font-weight-7-medium: 500;
   --font-weight-7-bold: 700;
   --font-weight-7-extrabold: 800;
+
+  --font-headline-8-size: 40px;
+  --font-weight-8-bold: 700;
 }
